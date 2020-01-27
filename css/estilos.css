@@ -1,0 +1,238 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+nav {
+  display: flex;
+  background-color: #7acc2d;
+  padding: 10px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  padding-right: 20px;
+  list-style: none;
+}
+
+.brand_image {
+  padding-left: 20px;
+}
+
+nav li a {
+  color: rgb(80, 80, 80);
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: white;
+}
+label {
+  font-size: 11px;
+  padding-bottom: 5px;
+}
+.main-section {
+  padding: 6% 27%;
+  text-align: center;
+  font-size: 20px;
+  /* background-color: tomato; */
+}
+
+.podructs {
+  background-image: url("../images/fondo_curva.png");
+  max-height: 100px;
+  background-size: cover;
+  background-position: center top;
+  display: flex;
+  /* width: 100vh;s */
+  padding: 15% 30%;
+  /* padding: 150px; */
+  /* align-items: center; */
+  /* background-color: rgb(22, 255, 255); */
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.product {
+  padding: 10px;
+  margin-top: -50%;
+  /* background-color: yellow; */
+  height: 600px;
+  margin-bottom: 60px;
+}
+.product .content {
+  background-color: white;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+.image-conten {
+  text-align: center;
+}
+.main-botton {
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  border: none;
+  font-size: 17px;
+  background-color: #7acc2d;
+  border-radius: 3px;
+  padding: 10px;
+  cursor: pointer;
+}
+.main-botton:hover {
+  background-color: #539614;
+}
+
+.item-container {
+  /* background-color: violet; */
+  /* padding: 10px; */
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 440px;
+}
+
+.lomas {
+  width: 100%;
+  height: inherit;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 10%;
+  padding-right: 10%;
+  /* background-color: thistle; */
+}
+
+.item {
+  width: 200px;
+  height: 300px;
+  /* padding: 500px; */
+  text-align: center;
+  /* padding-left: 20px; */
+  /* background-color: rgb(71, 187, 255); */
+  margin: 15px 10px;
+}
+
+.image-item {
+  height: 200px;
+}
+
+.titulo-menciones {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo-menciones h2 {
+  display: flex;
+}
+.meciones {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* background-color: tomato; */
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+}
+
+.mencion-box {
+  width: 300px;
+  height: 200px;
+  background-color: rgb(238, 236, 236);
+  margin: 15px 10px;
+  /* padding: 0px 10px; */
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  box-shadow: 0 0 7px rgba(19, 19, 19, 0.26);
+}
+
+.image-marco {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  /* width: 300px; */
+  height: 100px;
+  overflow: hidden;
+  /* background-color: lightcoral; */
+  background-image: url("../images/Alisa.jpg");
+}
+
+.image-mencionado {
+  /* width: 300px; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.mencion-box p {
+  padding: 0px 10px;
+}
+.modulo_pago {
+  background-color: white;
+  box-shadow: 0 0 7px rgba(19, 19, 19, 0.26);
+  padding: 10px;
+}
+.modulo_pago_images img {
+  width: 100%;
+}
+.modulo_pago_images {
+  max-width: 260px;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+footer {
+  background-color: rgb(63, 63, 63);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position: absolute;
+  bottom: 0; */
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  /* font-weight: 600; */
+}
+
+.modulo_pago input{
+  margin-top: 10px;
+  width: 100%;
+  height: 35px;
+  border-radius: 2px;
+  border: 1px solid;
+}
+
+.data {
+  margin-top: 10px;
+  width: 100%;
+  padding: 5px;
+  border-radius: 2px;
+  border-radius: black;
+  box-sizing: border-box;
+}
+
+.modulo_pago .main-botton {
+  margin-top: 10px;
+  text-align: center;
+  justify-content: center;
+}

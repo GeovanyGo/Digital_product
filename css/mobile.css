@@ -1,0 +1,13 @@
+@media (max-width: 600px) {
+  body {
+    background-color: lawngreen;
+  }
+
+  .products {
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .product {
+      
+  }
+}
